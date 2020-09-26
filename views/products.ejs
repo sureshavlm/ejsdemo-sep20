@@ -1,0 +1,24 @@
+
+<html>
+    <body>
+        <h1>
+            <%= title %>
+        </h1>
+        <table border="1">
+            <tr>
+                <td>
+                    Name
+                </td>
+            </tr>
+            
+                <% for(var i = 0; i< items.length; i++) { %>
+                    <tr>
+                        <td>
+                            <%= items[i] %>
+                        </td>
+                    </tr>
+                <% } %>
+                
+        </table>
+    </body>
+</html>
